@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Z-LIST - Hip Hop Artists</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Z-LIST</h1>
+      <p>Top Hip Hop Artists & Songs</p>
+    </header>
+
+    <div class="artist-grid">
+      <!-- Playboi Carti -->
+      <div class="artist-card">
+        <h3>Playboi Carti</h3>
+        <ul>
+          <li><button class="song-button" data-song="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3">Magnolia</button></li>
+          <li><button class="song-button" data-song="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3">Flex</button></li>
+          <li><button class="song-button" data-song="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3">Long Time</button></li>
+        </ul>
+      </div>
+
+      <!-- Travis Scott -->
+      <div class="artist-card">
+        <h3>Travis Scott</h3>
+        <ul>
+          <li><button class="song-button" data-song="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3">SICKO MODE</button></li>
+          <li><button class="song-button" data-song="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3">Goosebumps</button></li>
+          <li><button class="song-button" data-song="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3">STARGAZING</button></li>
+        </ul>
+      </div>
+
+      <!-- Lil Uzi Vert -->
+      <div class="artist-card">
+        <h3>Lil Uzi Vert</h3>
+        <ul>
+          <li><button class="song-button" data-song="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3">XO TOUR Llif3</button></li>
+          <li><button class="song-button" data-song="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3">Money Longer</button></li>
+          <li><button class="song-button" data-song="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3">The Way Life Goes</button></li>
+        </ul>
+      </div>
+
+      <!-- Add more artist cards here -->
+    </div>
+  </div>
+
+  <audio id="audio-player" controls>
+    <source id="audio-source" src="" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
